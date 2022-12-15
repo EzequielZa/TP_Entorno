@@ -7,7 +7,7 @@ Nos posicionamos dentro de la carpeta descargada y escribimos:
 ```
 docker build -t nombre-de-la-imagen la-ruta-del-Dockerfile
 ```
-Podemos usar punto (.) al final del comando indica que el archivo Dockerfile se encuentra en el directorio actual.
+Podemos usar punto (.) al final del comando indicando que el archivo Dockerfile se encuentra en el directorio actual.
 Una vez que la imagen se ha creado correctamente, debes montarla utilizando el comando "docker run -it" de la siguiente manera:
 ```
 docker run -it nombre-de-la-imagen
